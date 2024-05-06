@@ -18,3 +18,14 @@ invitations to send.
 This program will require you to incorporate everything we
 have learned so far.
 """
+
+fl = []
+
+def party():
+    for i in range(10):
+        a = input("Enter a first and last name\n")
+        fl.append(a)
+        print(fl)
+
+
+party()
